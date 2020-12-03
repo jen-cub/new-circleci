@@ -17,12 +17,12 @@ for repo in "${REPOS[@]}"; do
   printf "%s" "$repo"
   echo
 
-  git clone --recurse-submodules git@github.com:greenpeace/"$repo" "$repo"
+  git clone --recurse-submodules git@github.com:jen-cub/"$repo" "$repo"
 
   pushd "$repo" || exit 1
 
-  git config user.email "circleci-bot@greenpeace.org"
-  git config user.name "CircleCI Bot"
+  git config user.email "jencub@gmail.com"
+  git config user.name "Jen"
   git config push.default simple
 
   git submodule update --init --recursive

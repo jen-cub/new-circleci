@@ -1,9 +1,5 @@
 
-# Planet 4 CircleCI build containers
-
-[![CircleCI](https://circleci.com/gh/greenpeace/planet4-circleci/tree/develop.svg?style=shield)](https://circleci.com/gh/greenpeace/planet4-circleci)
-
-Performs builds and tests for the Planet 4 web application and associated infrastructure
+# CircleCI build containers
 
 Supports automatic release versioning via CI commands on the develop branch.
 To use, push a commit to github which contains a comment such as below:
