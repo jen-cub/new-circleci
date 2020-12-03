@@ -21,7 +21,7 @@ fi
 # Checkout dependent repository and trigger CI with empty commit.
 git clone "$repo" "$dir"
 cd "$dir" || exit 1
-git config user.email "circleci-bot@greenpeace.org"
+git config user.email "jencub@gmail.com"
 git config user.name "CircleCI Bot"
 git config push.default simple
 git checkout "$branch"

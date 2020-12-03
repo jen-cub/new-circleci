@@ -51,8 +51,8 @@ CIRCLECI_USER=circleci
 
 # Application environment
 APPLICATION_DESCRIPTION="Base image for performing CI/CD operations in CircleCI"
-GOOGLE_PROJECT_ID=planet-4-151612
-MAINTAINER="Raymond Walker <raymond.walker@greenpeace.org>"
+GOOGLE_PROJECT_ID=jendevops1
+MAINTAINER="Jen <jencub@gmail.com>"
 
 # Container registry
 NAMESPACE=gcr.io

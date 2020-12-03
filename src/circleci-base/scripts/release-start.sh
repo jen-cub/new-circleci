@@ -9,7 +9,7 @@ else
 fi
 
 # Configure git user
-git config user.email "circleci-bot@greenpeace.org"
+git config user.email "jencub@gmail.com"
 git config user.name "CircleCI Bot"
 git config push.default simple
 

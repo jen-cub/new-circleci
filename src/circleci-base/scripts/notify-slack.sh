@@ -5,9 +5,9 @@ set -u
 MSG_USERNAME=${MSG_USERNAME:-CircleCI}
 MSG_TYPE=${MSG_TYPE:-Notification}
 MSG_ICON=${MSG_ICON:-'https://dmmj3mmt94rvw.cloudfront.net/favicon-undefined.ico'}
-MSG_TITLE=${MSG_TITLE:-'circleci.com/gh/greenpeace'}
-MSG_LINK=${MSG_LINK:-'https://circleci.com/gh/greenpeace'}
-MSG_TEXT=${MSG_TEXT:-'https://circleci.com/gh/greenpeace'}
+MSG_TITLE=${MSG_TITLE:-'app.circleci.com/pipelines/github/jen-cub'}
+MSG_LINK=${MSG_LINK:-'https://app.circleci.com/pipelines/github/jen-cub'}
+MSG_TEXT=${MSG_TEXT:-'https://app.circleci.com/pipelines/github/jen-cub'}
 MSG_COLOUR=${MSG_COLOUR:-'f5f5f5'}
 MSG_IMAGE=${MSG_IMAGE:-}
 
